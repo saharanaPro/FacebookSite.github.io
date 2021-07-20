@@ -1,0 +1,74 @@
+﻿/* Media Query */
+
+/* 576px 768px 990px 1200px */
+
+
+/*** Start css Media Query ***/
+/*@media screen and (min-width: 567px) {
+    .container {
+        box-sizing: border-box;
+        width: 1200px;
+        border: 2px solid red;
+        text-align: center;
+    }
+}*/
+/* container start */
+@media screen and (min-width: 567px) {
+    .container-sm {
+        max-width: 540px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container-md {
+        max-width: 720px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container-lg {
+        max-width: 960px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+/* container end */
+
+@media screen and (max-width: 992px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col-sm-12 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 567px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+}
